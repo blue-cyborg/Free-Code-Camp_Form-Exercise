@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(178.2deg, rgb(10, 34, 231) -7.4%, rgb(223, 9, 142) 71.6%);
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+form,
+header {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: pink;
+}
+
+
+select,
+textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+}
+
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+
+button {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    background-color: rgb(10, 34, 231);
+    color: white;
+    border-color: white;
+    min-width: 300px;
+    box-shadow: .5px .5px .5px .5px grey;
+}
+
+.form-control {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
